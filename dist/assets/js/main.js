@@ -1,5 +1,6 @@
 const scroll = new LocomotiveScroll({
-    el: document.querySelector("data-scroll-container"),
+    el: document.querySelector("[data-scroll-container]"),
     smooth:true, 
-    tablet
+    tablet:{ smooth: true},
+    smartphone: {smooth: true}
 })

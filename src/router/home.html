@@ -5,14 +5,23 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
         <link rel="stylesheet" href="/assets/css/style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"/>
     </head>
     <body>
-        <div class="container">
-            <div class="section py">
-                <h2>Online Store</h2>
-                <p>Please Scroll Down Now!</p>
+        <div class="container" data-scroll-container>
+            <div class="section py" data-scroll-section>
+                <h2 data-scroll 
+                    data-scroll-speed="4" 
+                    data-scroll-position="top"
+                    >Online Store</h2>
+                    <p
+                    data-scroll
+                    data-scroll-speed="-4"
+                    data-scroll-direction="horizontal">
+                    Please scroll down
+                  </p>
             </div>
-            <div id="gallery">
+            <div id="gallery" data-scroll-section>
                 <div class="grid">
                     <div class="img">
                         <img src="/assets/img/4.jpg" alt="">
@@ -21,51 +30,97 @@
                         <img src="/assets/img/7.jpg" alt="">
                     </div>
                     <div>
-                        <img src="/assets/img/01.jpg" alt="">
+                        <img src="/assets/img/01.jpg" alt="" 
+                        data-scroll 
+                        data-scroll-sticky
+                        data-scroll-target="#gallery"
+                        data-scroll-speed="1.2"
+                        >
                     </div>
                 </div>
             </div>
             <!-- THree3d -->
-            <div class="threeD" id="threeD">
+            <div class="threeD" id="threeD" data-scroll-section>
                 <h2>
-                    <span>3</span>
-                    <span>D</span>
-                    <span>V</span>
-                    <span>I</span>
-                    <span>B</span>
-                    <span>E</span>
-                    <span>S</span>
+                    <span data-scroll 
+                        data-scroll-repeat 
+                        data-scroll-speed="4.5">3</span>
+                    <span data-scroll 
+                        data-scroll-repeat 
+                        data-scroll-speed="4.1">D</span>
+                    <span data-scroll 
+                        data-scroll-repeat 
+                        data-scroll-speed="3.4">V</span>
+                    <span data-scroll 
+                        data-scroll-repeat 
+                        data-scroll-speed="3.5">I</span>
+                    <span data-scroll 
+                        data-scroll-repeat 
+                        data-scroll-speed="3.7">B</span>
+                    <span data-scroll 
+                        data-scroll-repeat 
+                        data-scroll-speed="3.1">E</span>
+                    <span data-scroll 
+                        data-scroll-repeat 
+                        data-scroll-speed="2.4">S</span>
                 </h2>
                 <!-- SkewDiv -->
-                <div class="skewsec">
+                <div class="skewsec"
+                    data-scroll 
+                    data-scroll-direction="horizontal"
+                    data-scroll-speed="20"
+                    data-scroll-target="#threeD"
+                >
                     <span>This is infact an Ecommerce Website</span>
                 </div>
-                <div class="skewsec">
+                <div class="skewsec"
+                    data-scroll 
+                    data-scroll-direction="horizontal"
+                    data-scroll-speed="20"
+                    data-scroll-target="#threeD">
                     <span>Made by Philip Daquin</span>
                 </div>
             </div>
-        </div>
-        <div class="subs">
-            <h2>
-                <span>S</span>
-                <span>U</span>
-                <span>B</span>
-                <span>S</span>
-                <span>C</span>
-                <span>R</span>
-                <span>I</span>
-                <span>B</span>
-                <span>E</span>
-            </h2>
-        </div>
 
-            
-            <div class="footer">
-                <h1>
+            <div class="subs" data-scroll-section>
+                <h2 data-scroll data-scroll-repeat>
+                    <span data-scroll data-scroll-delay="0.15" data-scroll-speed="5"
+                        >S</span
+                    >
+                    <span data-scroll data-scroll-delay="0.095" data-scroll-speed="5"
+                        >U</span
+                    >
+                    <span data-scroll data-scroll-delay="0.085" data-scroll-speed="5"
+                        >B</span
+                    >
+                    <span data-scroll data-scroll-delay="0.075" data-scroll-speed="5"
+                        >S</span
+                    >
+                    <span data-scroll data-scroll-delay="0.065" data-scroll-speed="5"
+                        >C</span
+                    >
+                    <span data-scroll data-scroll-delay="0.055" data-scroll-speed="5"
+                        >R</span
+                    >
+                    <span data-scroll data-scroll-delay="0.045" data-scroll-speed="5"
+                        >I</span
+                    >
+                    <span data-scroll data-scroll-delay="0.035" data-scroll-speed="5"
+                        >B</span
+                    >
+                    <span data-scroll data-scroll-delay="0.035" data-scroll-speed="5"
+                        >E</span
+                    >
+                </h2>
+            </div>
+            <div class="footer" data-scroll-section>
+                <h1 data-scroll data-scroll-speed="4" data-scroll-position="bottom">
                     Philip Daquin
                 </h1>
             </div>
         </div>
+        
+        <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
         <script type="module" src="/assets/js/main.js"></script>
     </body>
 </html>

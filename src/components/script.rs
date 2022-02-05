@@ -4,7 +4,7 @@ use yew::prelude::*;
 pub fn script() -> Html {
     html! { 
         <>
-            <script src="/assets/js/main.js"></script> 
+            <script src="./assets/js/main.js"></script> 
         </>
     }
 }

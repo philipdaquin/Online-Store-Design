@@ -18,7 +18,11 @@ impl Component for Footer {
     fn view(&self, ctx: &Context<Self>) -> Html {
         html! {
             <>
-                
+                <section class="">
+                    <div>
+                        <h1>{"Hello"}</h1>
+                    </div>
+                </section>
             </>
         }
 

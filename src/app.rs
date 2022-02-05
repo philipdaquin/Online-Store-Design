@@ -4,7 +4,7 @@ use crate::{
     components::{
         navbar::Navbar,
         header::Header,
-        footer::Footer
+        footer::footer::Footer
     },
     router::{AppRoute, 
         home::Home,

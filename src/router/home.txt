@@ -31,8 +31,8 @@
                     </div>
                     <div>
                         <img src="/assets/img/01.jpg" alt="" 
-                        data-scroll 
-                        data-scroll-sticky
+                        data-scroll=""
+                        data-scroll-sticky="
                         data-scroll-target="#gallery"
                         data-scroll-speed="1.2"
                         >
@@ -40,41 +40,22 @@
                 </div>
             </div>
             <!-- THree3d -->
-            <div class="threeD" id="threeD" data-scroll-section>
+            <div class="threeD" id="threeD" data-scroll-section="">
                 <h2>
-                    <span data-scroll 
-                        data-scroll-repeat 
-                        data-scroll-speed="4.5">3</span>
-                    <span data-scroll 
-                        data-scroll-repeat 
-                        data-scroll-speed="4.1">D</span>
-                    <span data-scroll 
-                        data-scroll-repeat 
-                        data-scroll-speed="3.4">V</span>
-                    <span data-scroll 
-                        data-scroll-repeat 
-                        data-scroll-speed="3.5">I</span>
-                    <span data-scroll 
-                        data-scroll-repeat 
-                        data-scroll-speed="3.7">B</span>
-                    <span data-scroll 
-                        data-scroll-repeat 
-                        data-scroll-speed="3.1">E</span>
-                    <span data-scroll 
-                        data-scroll-repeat 
-                        data-scroll-speed="2.4">S</span>
+                    <span data-scroll data-scroll-repeat="" data-scroll-speed="4.5">3</span>
+                    <span data-scroll data-scroll-repeat="" data-scroll-speed="4.1">D</span>
+                    <span data-scroll data-scroll-repeat="" data-scroll-speed="3.4">V</span>
+                    <span data-scroll data-scroll-repeat="" data-scroll-speed="3.5">I</span>
+                    <span data-scroll data-scroll-repeat="" data-scroll-speed="3.7">B</span>
+                    <span data-scroll data-scroll-repeat="" data-scroll-speed="3.1">E</span>
+                    <span data-scroll data-scroll-repeat="" data-scroll-speed="2.4">S</span>
                 </h2>
                 <!-- SkewDiv -->
-                <div class="skewsec"
-                    data-scroll 
-                    data-scroll-direction="horizontal"
-                    data-scroll-speed="20"
-                    data-scroll-target="#threeD"
-                >
-                    <span>This is infact an Ecommerce Website</span>
+                <div class="skewsec" data-scroll="" data-scroll-direction="horizontal" data-scroll-speed="20" data-scroll-target="#threeD">
+                    <span>{"This is infact an Ecommerce Website"}</span>
                 </div>
                 <div class="skewsec"
-                    data-scroll 
+                    data-scroll=""
                     data-scroll-direction="horizontal"
                     data-scroll-speed="20"
                     data-scroll-target="#threeD">

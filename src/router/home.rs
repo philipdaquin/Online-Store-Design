@@ -1,4 +1,5 @@
 use yew::prelude::*;
+use crate::components::{script::Script};
 
 pub struct Home;
 
@@ -24,6 +25,7 @@ impl Component for Home {
                         <p>{"Please Scroll Down"}</p>
                     </div>
                 </div>
+                
             </>
         }
     }

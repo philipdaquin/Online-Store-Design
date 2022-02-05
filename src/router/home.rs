@@ -18,10 +18,11 @@ impl Component for Home {
     fn view(&self, ctx: &Context<Self>) -> Html {
         html! {
             <>
-                <div class="home">
-                    <img class="profile-picture" src="assets/images/avatar.jpg" alt="ShironCat's avatar" />
-                    <h1>{ "Hello, World!" }</h1>
-                    <img src="https://http.cat/404.jpg" />
+                <div class="container">
+                    <div class="section py">
+                        <h1>{"Scrolling Down"}</h1>
+                        <p>{"Please Scroll Down"}</p>
+                    </div>
                 </div>
             </>
         }
